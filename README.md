@@ -77,19 +77,3 @@ __NOTE__ In case you encounter connection problems with the Appium server, you s
 8. Some tests do not work when the keyboard is visible. You may need to disable the software keyboard on your emulator, by using:
 
 `adb shell settings put secure show_ime_with_hard_keyboard 0`
-
-# Additional links
-## Appium
-
-* Appium - http://appium.io/
-* Appium Discussion group - https://discuss.appium.io/
-* Java Client changelog - https://github.com/appium/java-client
-
-## Automation
-* Android - UI Automator - https://developer.android.com/reference/android/support/test/uiautomator/UiSelector.html
-* Using iOS Simulator - https://www.youtube.com/watch?v=d1u58t-ko6s
-
-## Cucumber
-* Tutorials - https://github.com/cucumber/cucumber/wiki/Tutorials-and-Related-Blog-Posts
-* Fortech Internal Training - Mobile Automated Tests Presentation - https://drive.google.com/file/d/0BwIf0GcXSV41MTk1MFdtTTg0RmtXb0JiNGhaUWZqT0p2TDJN/view
-* [The Cucumber Book: Behaviour-Driven Development for Testers and Developers](https://www.amazon.com/Cucumber-Book-Behaviour-Driven-Development-Programmers/dp/1934356808) - Great resource for writing well structured Cucumber / Specflow tests (Specflow is just a .NET implementation of Cucumber)
